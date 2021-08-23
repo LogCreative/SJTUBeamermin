@@ -8,9 +8,9 @@ Overleaf 链接已经更新↑。移步 [SJTUBeamer](https://github.com/sjtug/SJ
 
 sjtubeamermin 样式为上海交通大学幻灯片模板的 LaTeX 非官方实现版本，是符合[上海交通大学视觉形象识别系统](http://vi.sjtu.edu.cn/)相关规范的最小工作集，图标版权归上海交通大学所有，本项目仅供校内人员学习参考使用。
 
-[SJTUBeamermin 样式文档](doc/sjtubeamermintheme.pdf)
+[SJTUBeamermin 样式文档](https://logcreative.github.io/SJTUBeamermin/doc/sjtubeamermintheme.pdf)
 
-[向该项目贡献代码](doc/sjtubeamermindevguide.pdf)
+[向该项目贡献代码](https://logcreative.github.io/SJTUBeamermin/doc/sjtubeamermindevguide.pdf)
 
 ## 快速上手
 
@@ -41,7 +41,7 @@ latex beamerthemesjtubeamermin.ins
 
 > (C) 2021 Log Creative
 >
-> 图标归 [上海交通大学](vi.sjtu.edu.cn) 所有，本模板不持有该版权。根据规定，任何校外人员用于商业用途均需要向学校申请。
+> 图标归 [上海交通大学](https://vi.sjtu.edu.cn) 所有，本模板不持有该版权。根据规定，任何校外人员用于商业用途均需要向学校申请。
 > 任何不当使用，Log Creative 免于相关责任。
 > 
 > 本作品遵守 [Apache-2.0](LICENSE) 协议。
@@ -52,9 +52,9 @@ latex beamerthemesjtubeamermin.ins
 
 `sjtubeamermin` theme is an unofficial implementation of SJTU UI, as a beamer theme for making presentation. SJTU logo and its related graphics are owned by SJTU, which requires the permission from SJTU administration for any commercial purposes.
 
-[Documentation (Chinese)](doc/sjtubeamermintheme.pdf)
+[Documentation (Chinese)](https://logcreative.github.io/SJTUBeamermin/doc/sjtubeamermintheme.pdf)
 
-[Developer's Guide](doc/sjtubeamermindevguide.pdf)
+[Developer's Guide](https://logcreative.github.io/SJTUBeamermin/doc/sjtubeamermindevguide.pdf)
 
 ## Quick Run
 
