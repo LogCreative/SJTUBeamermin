@@ -2,7 +2,11 @@
 
 [![.github/workflows/build.yml](https://github.com/LogCreative/SJTUBeamermin/actions/workflows/build.yml/badge.svg)](https://github.com/LogCreative/SJTUBeamermin/actions/workflows/build.yml) [![Overleaf](https://img.shields.io/badge/Overleaf-v1.0-green)](https://www.overleaf.com/latex/templates/sjtubeamermin/shxnnnjjgqvp)
 
-Overleaf 链接已经更新↑。移步 [SJTUBeamer](https://github.com/sjtug/SJTUBeamer) 查看合并进度，本存储库继续维护至 2021 年 12 月 31 日。
+![](support/notice_1.jpg)
+![](support/notice_2.jpg)
+
+> **重要公告**
+> SJTUBeamermin 将于 2022 年 1 月 1 日起[停止服务](https://github.com/LogCreative/SJTUBeamermin/issues/19)，可以使用 [SJTUBeamer](https://github.com/sjtug/SJTUBeamer) 做为替代。感谢支持。
 
 ## 上海交通大学 LaTeX Beamer 幻灯片模板 - VI 最小工作集
 

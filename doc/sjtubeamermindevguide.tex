@@ -365,6 +365,48 @@
         \item \textbf{Use old-fashioned \TeX{} code.} If there is a nice way to implement in \TeX{}, then go \TeX{}. \TeX{} is a box-based typesetting system, which may be mentioned in many Computer Science books. And \LaTeX{} is on top of that to provide clear-to-read macros. In some scenarios, the native \verb"\vbox" and \verb"\hbox" command could help calculate the position of characters in a more controllable way. But it is certainly painful to learn. The \TeX{} Book\cite{texbook} is the classic to learn that, but Notes On Programming in \TeX{}\cite{texnote} is more recommended in modern \LaTeX{}.
     \end{enumerate}
 
+    \section{Notice on Terminating Support}
+
+        \themename\ will terminate its support on Jan 1st, 2022. This repository will be archived at that time.
+
+        SJTUG has released a unified SJTUBeamer Template. \themename\ has finished its code merge by Sept 3rd, 2021. By version 2.3.0, SJTUBeamer has much more flexible customization capabilities than ever before. If you wish to continue getting the support on the beamer template, you could migrate your code to SJTUBeamer and use min and default parameters to get a similar result.
+
+        Any problem in migrating, propose an issue before it is archived or contact the technical support:
+\begin{quote}
+        E-mail: \href{malito:logcreative@outlook.com}{\ttfamily logcreative@outlook.com}
+\end{quote}
+        Log Creative\\
+        Nov 5th, 2021
+
+        \subsection*{Migrating to \textsf{SJTUBeamer}}
+
+        \themename\ has its first commit on Mar 15th, 2021. After iterating 10 versions, it reaches its production version 1.0 on Aug 14th, 2021. The primary intention is as an extension example of \LaTeX\ Sparkle Project Chapter 7. Although it is not the first beamer template for SJTU \TeX\ users (You could search and get some of these on old BBS), a more customized look is applied to make full use of the \verb"beamer" class, which is the first template that fits 2016 SJTU VI. 
+        
+        And now, it is time to say goodbye since the author doesn't hold the copyright of the related graphics, and it would be better to merge to the mainstream of \textsf{SJTUBeamer} for a better development community. What's more, \textsf{SJTUBeamer} could adapt to all kinds of beamer outer styles.
+
+        Swap the style file to \textsf{SJTUBeamer} ones and introduce \verb"ctexbeamer" document class instead of \verb"beamer" document class to get the Chinese support. Since the \verb"CJKutf8" usage in \textsf{SJTUBeamer} is deprecated. As mentioned, you could use \verb"min,default" settings on \textsf{SJTUBeamer} to get a similar look as \themename.
+
+        \begin{verbatim}
+\documentclass{ctexbeamer}
+\usetheme[min,default]{sjtubeamer}
+\begin{document}
+\end{document}
+        \end{verbatim}
+
+        However, some APIs are deprecated in \textsf{SJTUBeamer} and it is now written in boolean option style instead of key-value style to make it more easy to use. I believe that there is no futher change on other commands other than the options. For full details of the new API, you could swtich to the user manual of \textsf{SJTUBeamer}.
+
+        \begin{center}
+            \begin{tabular}{>{\ttfamily}lp{6cm}}
+                Key & Change in \textsf{SJTUBeamer} \\
+                navigation & DEPRECATED, it is controlled by the selection on outer styles. \\
+                lang & reserved, but only controls the logo language currently. \\
+                cjk & DEPRECATED, should use \texttt{ctexbeamer} as the document class. \\
+                color & reserved. \\
+                pattern & DEPRECATED, not applicable on all the outer styles. \\
+                gbt & DEPRECATED, user should import the related citing package manually, and it is still useful to refer to the source code of \themename\ for coding examples.
+            \end{tabular}
+        \end{center}
+
     \section{Implementation}
 
     Now, you may still be confused about how to create a beamer template. Here is a good material about it for a lead-in\cite{tex2017}, which provides a brief overview. And this part is only focusing on the implementation of \themename{}.
@@ -382,7 +424,11 @@
     \vfill
 
     \begin{center}
-        \Large Good Luck with \themename{} !
+        \Large \themename{}
+
+        \vskip5pt
+        \normalsize
+        Mar 15th, 2021 --- Dec 31th, 2021
         \vskip 1em
 
         \normalsize\hskip5cm Developer
